@@ -8,6 +8,7 @@
     <title>Scrolling for Bargins</title>
 </head>
 <body>
+  <div id="container"
    <!--  HTML EXERCISES
 
    X 1) Create a title for this webpage
@@ -15,7 +16,7 @@
    X 3) Create an ordered list with some list items into it
    X 4) Create a table with 5 columns and 4 rows
    X 5) Add an image to each second cell of every row
-    6) Add a anchor link for every image
+   X 6) Add a anchor link for every image
    X 7) Merge together 2 table cells
    X 8) Divide the page using a horizontal line
    X 9) Create a container with a nested paragraph and a nested unordered list
@@ -27,13 +28,14 @@
             <li>holder</li>
             <li>holder</li>
             <li>holder</li>
-            <li>holder</li>
+            <li class="hide">holder</li>
             <li>holder</li>
             <li>holder</li>         
        </ol>
     </div>
     <div>
         <table class ="tbl1">
+          <div class="tr">
             <tr>
                 <th>Pasta</th>
                 <th>Pizza</th> 
@@ -42,55 +44,62 @@
                 <th>Deserts</th>
                 
               </tr>
+              </div>
+              <div class="tr">
               <tr>
                 <td>St. Louis Style Pizza
                   
                 </td>
                 <td><a href="https://it.wikipedia.org/wiki/Deep-dish_pizza">
-                    <img src="St louis pizza.JPG" alt="Imo's St Louis Style Pizza"></a>
+                    <img src="St louis pizza.JPG" alt="Imo's St Louis Style Pizza"><br>Information</a>
                 </td> 
                 <td>Germany</td>
                 <td>Germany</td>
                 <td>Missippi</td>
               </tr>
-              <tr>
+              </div>
+              <div class="tr">
+              <tr class="tr">
                 <td>Chicago Stlye Pizza</td>
                 <td><a href="https://en.wikipedia.org/wiki/Chicago-style_pizza">
-                     <img src="Chicago.jpg.webp" alt="Chicago Style Pizza"></a>
+                     <img src="Chicago.jpg.webp" alt="Chicago Style Pizza"><br>Information</a>
                     </td> 
                 <td>Mexico</td>
                 <td>Deserts</td>
+                <td>bite</td>
                 
               </tr>
-              <tr>
+              </div>
+
+              <tr class="tr">
                 <td>New York Style</td>
                 <td><a href="https://en.wikipedia.org/wiki/New_York-style_pizza">
-                  <img src="NY.jpg" alt="New York Style Pizza"></a>
+                  <img src="NY.jpg" alt="New York Style Pizza"><br>Information</a>
                 </td> 
                 </td> 
                 <td>Mexico</td>
                 <td>Deserts</td>
                 <td>Deserts</td>
               </tr>
-              <tr>
+              <tr class="tr">
                 <td>Napoli Style</td>
                 <td><a href="https://en.wikipedia.org/wiki/Neapolitan_pizza">
-                  <img src="Napoli.jpg" alt="Napoli Style Pizza"></a>
+                  <img src="Napoli.jpg" alt="Napoli Style Pizza"><br>Information</a>
                 </td> 
                 <td>Mexico</td>
                 <td>Deserts</td>
                 <td>Deserts</td>
               </tr>
-              <tr>
+              <tr class="tr">
                 <td>Roma Style</td>
                 <td><a href="https://en.wikipedia.org/wiki/Roman_pizza">
-                  <img src="Roma.jpg" alt="Roma Style Pizza"></a>
+                  <img src="Roma.jpg" alt="Roma Style Pizza"><br>Information</a>
                 </td> 
                 <td>Mexico</td>
                 <td>Deserts</td>
                 <td>Deserts</td>
               </tr>
-              <tr>
+              
                 
         </table>
     </div>
@@ -110,6 +119,7 @@
             <li>holder</li>         
        </ul>
     </div>
+  </div>
 </body>
 <footer>
     <p>This is Rudies page<br>

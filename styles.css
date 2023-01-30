@@ -1,22 +1,30 @@
 CSS EXERCISES
 /*
-11) Give a maximum width to the body and center it into the page
-12) Set every h1 to be centered
-13) Change the color of each link in the page
-14) Create a class with a border assigned to it
-15) Set the previously created table to have rounded corners
-16) Add a margin between every paragraph
-17) Create a class which changes font size and text weight when applied
+X 11) Give a maximum width to the body and center it into the page
+X 12) Set every h1 to be centered
+X 13) Change the color of each link in the page
+X 14) Create a class with a border assigned to it
+
+x 15) Set the previously created table to have rounded corners
+X 16) Add a margin between every paragraph
+X 17) Create a class which changes font size and text weight when applied
 18) Create a class to hide a piece of content
 X 19) Add a green border to each <td>
 20) Add a dotted red border to each <tr> (note: <tr> does not accept a border property)
 */
 body{
     margin: 0;
+    max-width: 100%; text-align: center;
+    
+    
+}
+#container{
+    width: 900px; text-align: left; margin: 0px auto;
 }
 
 .olist1{
-
+font-size: large;
+font-weight: 600;
 
 
 }
@@ -26,13 +34,14 @@ body{
     width: 100%;
     color: blue;
     text-align: center;
-   
+   border-radius: 25px;
     border: 1px solid;
    
     
 }
 td{
     border: 1px solid;
+    border-radius: 25px;
     border-color: green;
 
 
@@ -41,4 +50,20 @@ img{
     width: 200px;
     height: 200px;
     align-items: center;
+}
+h1{
+    text-align: center;
+}
+a{
+    color:red;
+}
+p{
+    margin: 15px;
+}
+.tr{
+    border: dotted;
+    border-color: red;
+}
+.hide{
+    visibility: hidden;X 
 }
